@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\GravioOS\ronin\build\CMakeFiles\e2fe235a54052b0d49ed8dc7fc85faad\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1ADF57CA-8951-373A-B21A-ED64D482EDEB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

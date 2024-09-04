@@ -1,0 +1,10 @@
+^D:\GRAVIOOS\RONIN\BUILD\CMAKEFILES\E2FE235A54052B0D49ED8DC7FC85FAAD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/GravioOS/ronin -BD:/GravioOS/ronin/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/GravioOS/ronin/build/Ronin.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
