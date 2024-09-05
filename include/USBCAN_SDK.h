@@ -162,7 +162,7 @@ API_EXPORT class CANConnection
 {
 public:
     CANConnection(
-            int send_id, int recv_id, std::string can_name = "GC_USBCAN",
+            int send_id, int recv_id, std::string can_name = "USBCAN-II-V5",
             USBCAN_SDK::TunnelType tunnel_type = USBCAN_SDK::TunnelType::USBCAN_II_TYPE,
             int tunnel_id = 0, int can_index = 1);
 

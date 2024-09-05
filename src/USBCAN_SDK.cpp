@@ -17,7 +17,7 @@ CanDev::CanDev(std::string pdcan_name, TunnelType dev_type, int dev_index, int c
     _is_open = false;
 
     Status ret = Status::ERR;
-    if (pdcan_name == "GC_USBCAN")
+    if (pdcan_name == "USBCAN-II-V5")
     {
         for (int i = 0; i < 3; i++)
         {
